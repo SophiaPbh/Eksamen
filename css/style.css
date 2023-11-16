@@ -1,0 +1,52 @@
+html{
+    font-size: calc(1em + 1w);
+}
+
+body{
+    font-family: 'Bree Serif', serif;
+    margin:0;
+    background-color:#fff;
+}
+
+#grid container {
+    display:grid;
+    grid-template-areas: "header" "main" "footer";
+    text-align:center;
+    justify-content:center;
+}
+
+.flex-section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.flex-section article {
+    flex-basis:33%;
+    max-width:692px;
+}
+
+#branding{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-grow:1;
+}
+
+#design{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-grow:1;
+}
+
+#development{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-grow:1;
+}
+
+
+@media only screen and (max-width:1600px) and (min-width:600px) {
+    #grid-container {
+        grid-template-areas: "header header header" "main main main" "footer footer footer"
+    }
+}
