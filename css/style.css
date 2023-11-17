@@ -1,3 +1,7 @@
+*{
+    box-sizing:border-box;
+}
+
 html{
     font-size: calc(1em + 1w);
 }
@@ -8,21 +12,41 @@ body{
     background-color:#fff;
 }
 
-#grid container {
+#grid-container {
     display:grid;
     grid-template-areas: "header" "main" "footer";
-    text-align:center;
-    justify-content:center;
 }
 
 header{
 display:grid;
-grid-template-columns: 1fr;
+}
+
+#goldaboutbox{
+    display:block;
+    height:375px;
+    background-color:#e6bd43;
+    text-align:center;
+    padding:5rem;
 }
 
 main{
     display:grid;
-    grid-template-columns: 1fr;
+}
+
+.greybox{
+    display:block;
+    height:200px;
+    background-color:lightgrey;
+    text-align:center;
+}
+
+.borderbox{
+    display:block;
+    height:635px;
+    background-color:#e6bd43;
+    text-align:center;
+    padding:5rem;
+    margin:30px;
 }
 
 .flex-section{
@@ -85,11 +109,11 @@ main{
 
 footer{
     display:grid;
-    grid-template-columns: 1fr;
 }
 
 @media only screen and (max-width:1600px) and (min-width:575px) {
     #grid-container {
-        grid-template-areas: "header header header" "main main main" "footer footer footer"
+        display:grid;
+        grid-template-areas: "header" "main" "footer";
     }
 }
