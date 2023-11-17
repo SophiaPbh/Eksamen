@@ -15,37 +15,80 @@ body{
     justify-content:center;
 }
 
+header{
+display:grid;
+grid-template-columns: 1fr;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
 .flex-section{
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between;
 }
 
-.flex-section article {
-    flex-basis:33%;
+.flex-section article img {
     max-width:692px;
+    min-width:200px;
+    margin:11px;
 }
 
-#branding{
+#flex-item1{
     display:flex;
-    flex-wrap:nowrap;
-    flex-grow:1;
+    flex-wrap:wrap;
 }
 
-#design{
+#flex-item2{
     display:flex;
-    flex-wrap:nowrap;
-    flex-grow:1;
+    flex-wrap:wrap;
 }
 
-#development{
+.section-flex{
     display:flex;
-    flex-wrap:nowrap;
-    flex-grow:1;
+    flex-wrap:wrap;
+    justify-content:space-between;
 }
 
+.section-flex article img{
+    max-width:692px;
+    min-width:200px;
+    margin:11px;
+}
 
-@media only screen and (max-width:1600px) and (min-width:600px) {
+#flex-item3{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:stretch;
+}
+
+.flexflex-section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.flexflex-section article img{
+    max-width:692px;
+    min-width:200px;
+    margin:11px;
+}
+
+#flex-item4{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:stretch;
+}
+
+footer{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+@media only screen and (max-width:1600px) and (min-width:575px) {
     #grid-container {
         grid-template-areas: "header header header" "main main main" "footer footer footer"
     }
