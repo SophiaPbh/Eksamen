@@ -41,12 +41,13 @@ main{
 }
 
 .borderbox{
-    display:block;
+    display:flex;
     height:635px;
+    width:1600px;
     background-color:#e6bd43;
     text-align:center;
     padding:5rem;
-    margin:30px;
+    margin:0;
 }
 
 .flex-section{
