@@ -3,7 +3,7 @@
     <html lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' media='screen and (min-width:600px) and (max-width:1600px)' href='css/medium.css' />
+    <link rel='stylesheet' media='screen and (max-width:1600px) and (min-width:600px)' href='css/medium.css' />
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
     <link href="/css/fontawesome-free-6.4.2-web/css/fontawesome.css" rel="stylesheet">
     <link href="/css/fontawesome-free-6.4.2-web/css/brands.css" rel="stylesheet">
@@ -15,29 +15,24 @@
     <title>Tittel</title>
 </head>
 <body>
-    <div id="grid-container">
+    <div class="grid-container">
         <header>
-            <span>
-                <a href="index.html"><img src="img/ressurser/logo1.png" alt="nettsidens logo som man alltid kan trykke på for å komme til forsiden">
-            </span>
-            <nav>
-                <ul>
-                    <li><a href="#" class="meny">Home</a>
-                    <li><a href="#" class="meny">Portfolio</a>
-                    <li><a href="#" class="meny">About</a>
+            <a href="index.html"><img src="img/ressurser/logo1.png" alt="nettsidens logo som man alltid kan trykke på for å komme til forsiden">
+                </header>
+                <section class="services">
+                    <a href="#" class="meny">Home</a>
+                    <a href="#" class="meny">Portfolio</a>
+                    <a href="#" class="meny">About</a>
                     <a href="contact-us" id="Contact-button">Contact</a>
-                </ul>
-            </nav>
-        </header>
-    <main>
+                    </section>
+
+                    <main>
         <section class="greybox">
-            <h1><strong>Compeling headline</strong></h1>
             <article>
+            <h1><strong>Compeling headline</strong></h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-            </article>
-            <nav>
                 <a href="services" id="read-more-about-our-services">Read more about our services</a>
-            </nav>
+                </article>
         </section>
 
         <section>
@@ -81,14 +76,15 @@
             <a href="#" class="gold-button"><input type="submit" value="Sign me up"></a>
         </label>
     </main>
+
     <footer>
-        <span>
+        <section class="blackbox">
             <a href="index.html"><img src="img/ressurser/logo1.png" alt="nettsidens logo som man alltid kan trykke på for å komme til forsiden">
-                <a id="footer"><h5>Companyrights Companyname 2023</h5></a>
+                <h5>Companyrights Companyname 2023</h5></a>
                 <a href="www.facebook.com" id="footerikons"><img src="css/fontawesome-free-6.4.2-web/" alt="ikonbilde for facebook som har link man kan trykke på for å komme til nettsiden til facebook"></a>
                 <a href="www.instagram.com" id="footerikons"><img src="css/fontawesome-free-6.4.2-web/" alt="ikonbilde for instagram som har link man kan trykke på for å komme til nettsiden til instagram"></a>
                 <a href="www.linkedin.com" id="footerikons"><img src="css/fontawesome-free-6.4.2-web/" alt="ikonbilde for linkdin som har link man kan trykke på for å komme til nettsiden til linkdin"></a>
-        </span>  
+                </section>
     </footer>
 </div>
 </body>
