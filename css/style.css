@@ -24,12 +24,13 @@ header, main, footer {
 }
 
 header{
-display:flex;
-justify-content:center;
-position:relative;
-text-align:center;
+display:grid;
+justify-content:left;
+text-align:right;
+}
 
-
+header img{
+    justify-content:left;
 }
 
 #goldaboutbox{
@@ -48,7 +49,6 @@ main{
 }
 
 main section article{
-    display:grid;
     max-width:600px;
     min-width:100px;
     width:100%;
@@ -56,7 +56,6 @@ main section article{
 }
 
 main section h2{
-    display:flex;
     margin:10px;
     padding:2rem;
 }
@@ -146,12 +145,10 @@ footer{
     padding:1rem;
 }
 
-footer img{
-    display:grid;
-    flex-wrap:wrap;
-    align-items:stretch;
-    max-width:300px;
-    min-width:125px;
+img{
+    display:block;
+    justify-content: left;
+    align-items:stretch;  
 }
 
 @media only screen and (min-width: 600px) {
