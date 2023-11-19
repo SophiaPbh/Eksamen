@@ -65,7 +65,7 @@ main section p{
     background-color:#e6bd43;
     text-align:center;
     padding:1rem;
-    margin:1rem;
+    margin:0 auto;
 }
 
 .greybox{
@@ -75,17 +75,17 @@ main section p{
     background-color:lightgrey;
     text-align:center;
     padding:1rem;
-    margin:1rem;
+    margin:0 auto;
 }
 
 .whiteaboutbox{
     display:flex;
     height:300px;
     width:692px;
-    background-color:#fff;
+    background-color:whitesmoke;
     text-align:center;
     padding:1rem;
-    margin:0;
+    margin:0 auto;
 }
 
 footer{
@@ -116,6 +116,7 @@ footer img{
     background-color:#252525;
     text-align:center;
     padding:1rem;
+    margin:0 auto;
 }
 
 @media only screen and (min-width:701px) and (max-width:900px) {
