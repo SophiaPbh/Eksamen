@@ -71,6 +71,12 @@ footer img{
     display:block;
     justify-content:left;
     align-items:stretch;
+    width:100px;
+    height:100px;   
+}
+
+.footerikons{
+    justify-content:right;
 }
 
 .blackbox{
