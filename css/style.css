@@ -20,6 +20,31 @@ header{
 
 main {
     grid-area:main;
+    justify-content:center;
+    position:relative;
+    text-align:center;
+}
+
+main section article{
+    max-width:600px;
+    min-width:100px;
+    width:100%;
+    margin:0 auto;
+}
+
+main section h2{
+    margin:10px;
+    padding:2rem;
+}
+
+main section h1{
+    margin:10px;
+    padding:2rem;
+}
+
+main section p{
+    margin:10px;
+    padding:2rem;
 }
 
 .portfolio3{
@@ -40,7 +65,7 @@ main {
     background-color:#e6bd43;
     text-align:center;
     padding:1rem;
-    margin:0;
+    margin:1rem;
 }
 
 .greybox{
@@ -50,7 +75,7 @@ main {
     background-color:lightgrey;
     text-align:center;
     padding:1rem;
-    margin:0;
+    margin:1rem;
 }
 
 .whiteaboutbox{
@@ -98,4 +123,16 @@ footer img{
         display:grid;
         grid-template-areas: "header header header" "main main main" "footer footer footer";
     }
+    }
+
+    main section{
+        overflow:hidden;
+        max-width:1260px;
+        width:100%;
+        margin:0 auto;
+    }
+
+    main article{
+        float:center;
+        margin:10px;
     }
