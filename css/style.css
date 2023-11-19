@@ -69,14 +69,19 @@ footer{
 
 footer img{
     display:block;
-    justify-content:left;
+    justify-content:right;
     align-items:stretch;
     width:100px;
     height:100px;   
 }
 
-.footerikons{
+#footerikons {
+    display:block;
     justify-content:right;
+    align-items:stretch;
+    width:25px;
+    height:25px; 
+    background-color:#fff;
 }
 
 .blackbox{
