@@ -9,21 +9,16 @@ body{
     background-color:#fff;
 }
 
-.grid-container {
+#grid-container {
     display:grid;
     grid-template-areas: "header header header" "main main main" "footer footer footer";
-    padding:1rem;
-}
-
-header,main,footer{
-    padding:1rem;
 }
 
 header{
     grid-area:header;
 }
 
-main{
+main {
     grid-area:main;
 }
 
@@ -34,17 +29,8 @@ main{
 }
 
 .services{
-    justify-content:right;
-    text-align:right;
-}
-
-.goldaboutbox{
-    display:block;
-    height:300px;
-    width:692px;
-    background-color:#e6bd43;
+    justify-content:center;
     text-align:center;
-    padding:1rem;
 }
 
 .borderbox{
@@ -58,12 +44,23 @@ main{
 }
 
 .greybox{
-    display:block;
+    display:flex;
     height:300px;
     width:692px;
     background-color:lightgrey;
     text-align:center;
     padding:1rem;
+    margin:0;
+}
+
+.whiteaboutbox{
+    display:flex;
+    height:300px;
+    width:692px;
+    background-color:#fff;
+    text-align:center;
+    padding:1rem;
+    margin:0;
 }
 
 footer{
@@ -86,8 +83,8 @@ footer img{
 }
 
 @media only screen and (min-width:701px) and (max-width:900px) {
-    #grid-container {
+    .grid-container {
         display:grid;
         grid-template-areas: "header header header" "main main main" "footer footer footer";
     }
-}
+    }
