@@ -54,8 +54,8 @@ main section p{
 }
 
 .services{
-    justify-content:center;
-    text-align:center;
+    justify-content:right;
+    text-align:right;
 }
 
 .borderbox{
@@ -82,9 +82,12 @@ main section p{
     display:flex;
     height:300px;
     width:692px;
-    background-color:whitesmoke;
     text-align:center;
-    padding:1rem;
+    background-image: url(https://placehold.co/100x400);
+    background-repeat:no-repeat;
+    background-color:whitesmoke;
+    background-position:right;
+    padding:0;
     margin:0 auto;
 }
 
