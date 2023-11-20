@@ -41,20 +41,29 @@ main section h2{
 main section h5{
     margin:0;
     padding:5px;
-    background-color:#fff;
     font-size:30px;
 }
 
 main section h6{
     margin:0;
     padding:5px;
-    background-color:#fff;
 }
 
 main section p{
     margin:0;
     padding:5px;
-    background-color:#fff;
+    font-size:16px;
+}
+
+.read-more-about-us{
+    display:inline-block;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:10px;
+    color:#000;
+    background-color:white;
+    border: solid 1px 1px 2px rgb(0, 0, 0);
+    padding:15px;
 }
 
 .portfolio3{
@@ -91,6 +100,7 @@ main section p{
     height:300px;
     width:692px;
     background-color:lightgrey;
+    background-image:url(../img/200x200.svg);
     text-align:center;
     padding:1rem;
     margin:0 auto;
@@ -101,7 +111,17 @@ main section p{
     height:300px;
     width:692px;
     text-align:center;
-    background-color:#000;
+    background-color:whitesmoke;
+    padding:0;
+    margin:0 auto;
+}
+
+.whiteaboutbox2{
+    display:flex;
+    height:300px;
+    width:892px;
+    text-align:center;
+    background-image:url(../img/200x200.svg);
     padding:0;
     margin:0 auto;
 }
