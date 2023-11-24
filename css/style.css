@@ -18,9 +18,10 @@ header{
     grid-area:header;
 }
 
-header nav a{
+header nav{
     justify-content:right;
     text-align:right;
+    padding:25px;
 }
 
 header img{
@@ -37,29 +38,14 @@ main {
 main section article{
     max-width:600px;
     min-width:100px;
-    width:50%;
+    width:40%;
     margin:0 auto;
     padding:0;
 }
 
-main section h2{
-    margin:0;
-    padding:5px;
-}
-
-main section h5{
-    margin:0;
-    padding:5px;
-}
-
-main section h6{
-    margin:0;
-    padding:5px;
-}
-
-main section p{
-    margin:0;
-    padding:5px;
+main img{
+    justify-content:center;
+    width:fit-content;
 }
 
 .read-more-about-us{
@@ -94,7 +80,7 @@ main section p{
     font-weight:bold;
     color:#000;
     background-color:#e6bd43;
-    padding:5px;
+    padding:1px;
     margin:0 auto;
 }
 
@@ -129,47 +115,44 @@ main section p{
     background-color:lightgrey;
     background-image:url(../img/200x200.svg);
     text-align:center;
-    padding:1rem;
+    width:fit-content;
+    height:300px;
+    padding:0 auto;
     margin:0 auto;
 }
 
 .whiteaboutbox{
-    display:block;
+    display:flex;
     height:300px;
     width:692px;
     text-align:center;
-    box-shadow: 0px 0px 0px 10px #252525;
-    border-image:url(https://placehold.co/600x400/252525/FFF);
-    border-image-width:200px;
-    border-image-outset:10px;
+    background:url(https://placehold.co/400x400/white/white);
     background-color:whitesmoke;
-    padding:0;
+    border-image:url(https://placehold.co/400x400/black/black);
+    border-image-width:200px;
+    width:fit-content;
+    height:300px;
+    box-shadow:0px 0px 0px 10px black;
+    padding:0 auto;
     margin:0 auto;
 }
 
 footer{
     grid-area:footer;
-}
-
-footer img{
-    display:block;
-    justify-content:right;
-    align-items:stretch;
-    width:100px;
-    height:100px;   
+    text-align:center;
 }
 
 #footerikons {
-    display:block;
-    justify-content:right;
-    align-items:stretch;
     width:25px;
     height:25px; 
     background-color:#fff;
 }
 
 .blackbox{
-    display:block;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:stretch;
+    justify-content:right;
     height:146px;
     width:840px;
     background-color:#252525;
@@ -196,7 +179,6 @@ footer img{
     transform:scaleX(100%);
     transition:transform 2s ease ;
     }
-
 
 @media only screen and (min-width:701px) and (max-width:900px) {
     .grid-container {
