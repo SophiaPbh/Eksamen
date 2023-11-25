@@ -4,7 +4,7 @@
 
 body{
     font-family: 'Bree Serif', serif;
-    font-size:16px;
+    font-size:9px;
     margin:0 auto;
     background-color:#fff;
 }
@@ -38,24 +38,14 @@ main {
 main section article{
     max-width:600px;
     min-width:100px;
-    width:40%;
+    width:50%;
     margin:0 auto;
-    padding:0;
+    padding:25px;
 }
 
 main img{
     justify-content:center;
     width:fit-content;
-}
-
-.read-more-about-us{
-    display:inline-block;
-    text-decoration:none;
-    font-weight:bold;
-    color:#000;
-    background-color:white;
-    border:solid 3px black;
-    padding:15px;
 }
 
 .read-more-about-us2:hover{
@@ -70,17 +60,7 @@ main img{
     color:#000;
     background-color:#e6bd43;
     border:solid 3px black;
-    padding:15px;
-    margin:0 auto;
-}
-
-.gold-button{
-    display:inline-block;
-    text-decoration:none;
-    font-weight:bold;
-    color:#000;
-    background-color:#e6bd43;
-    padding:1px;
+    padding:8px;
     margin:0 auto;
 }
 
@@ -98,13 +78,20 @@ main img{
     background-color:#e6bd43;
 }
 
+.portfolio5{
+    display:flex;
+    flex-wrap:nowrap;
+    align-items:center;
+    background-color:#fff;
+}
+
 .borderbox{
     display:flex;
     height:280px;
     width:692px;
     background-color:#e6bd43;
     text-align:center;
-    padding:1rem;
+    padding:5rem;
     margin:0 auto;
 }
 
@@ -122,19 +109,19 @@ main img{
 }
 
 .whiteaboutbox{
-    display:flex;
+    display:block;
     height:300px;
     width:692px;
     text-align:center;
-    background:url(https://placehold.co/400x400/white/white);
-    background-color:whitesmoke;
-    border-image:url(https://placehold.co/400x400/black/black);
-    border-image-width:200px;
+    background-image:url(https://placehold.co/1000x1000/ffffff/252525);
+    background-repeat:no-repeat;
     width:fit-content;
-    height:300px;
-    box-shadow:0px 0px 0px 10px black;
+    border-image-source:url(https://placehold.co/1000x1000/252525/ffffff);
+    border-image-width:200px;
     padding:0 auto;
     margin:0 auto;
+    box-shadow:0px 0px 0px 10px #252525;
+    margin-block-end:15px;
 }
 
 footer{
