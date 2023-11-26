@@ -4,7 +4,7 @@
 
 body{
     font-family: 'Bree Serif', serif;
-    font-size:9px;
+    font-size:18px;
     margin:0 auto;
     background-color:#fff;
 }
@@ -40,12 +40,20 @@ main section article{
     min-width:100px;
     width:100%;
     margin:0 auto;
-    padding:150px;
+    padding:0 auto;
 }
 
 main img{
     justify-content:center;
     width:fit-content;
+}
+
+p{
+    margin:10px;
+}
+
+h5{
+    margin:10px;
 }
 
 .read-more-about-us2:hover{
@@ -78,34 +86,45 @@ main img{
     background-color:#e6bd43;
 }
 
-.portfolio5{
-    display:flex;
-    flex-wrap:nowrap;
-    align-items:center;
-    background-color:#fff;
+.portfolio4 img{
+    width:175px;
+    height:175px;
 }
 
-.borderbox{
+.portfolio6{
     display:flex;
-    height:280px;
-    width:692px;
+    flex-wrap:wrap;
+    align-items:stretch;
     background-color:#e6bd43;
-    text-align:center;
-    padding:5rem;
     margin:0 auto;
+    padding:10px;
+}
+
+.portfolio6 img{
+    width:400px;
+    height:325px;
+    margin:35px;
 }
 
 .greybox{
-    display:flex;
-    height:300px;
-    width:692px;
+    display:block;
     background-color:lightgrey;
     background-image:url(../img/200x200.svg);
-    text-align:center;
-    width:fit-content;
-    height:300px;
-    padding:0 auto;
+    padding:85px;
     margin:0 auto;
+    max-width:1260px;
+    max-height:700px;
+    text-align:center;
+}
+
+.grey{
+    display:block;
+    background-color:lightgrey;
+    padding:85px;
+    margin:0 auto;
+    max-width:1260px;
+    max-height:700px;
+    text-align:center;
 }
 
 .whiteaboutbox{
@@ -115,37 +134,37 @@ main img{
     background-image:url(https://placehold.co/1000x1000/ffffff/252525);
     border-spacing: initial;
     border-image-source:url(https://placehold.co/1000x1000/252525/ffffff);
-    border-image-width:130px;
-    border-image-slice:13%;
+    border-image-width:45px;
+    border-image-slice:1%;
     border-radius:initial;
     width:fit-content;
     height:fit-content;
-    padding:0 auto;
+    padding:65px;
     margin:0 auto;
 }
 
 footer{
     grid-area:footer;
-    text-align:center;
 }
 
-#footerikons {
-    width:25px;
-    height:25px; 
+footer img{
+    display:inline-block;
+    width:65px;
+    height:65px;
     background-color:#fff;
+    margin:50px;
 }
 
 .blackbox{
-    display:flex;
-    flex-wrap:wrap;
-    align-items:stretch;
-    justify-content:right;
-    height:146px;
+    display:block;
+    height:200px;
     width:840px;
     background-color:#252525;
     text-align:center;
-    padding:1rem;
+    padding:0 auto;
     margin:0 auto;
+    width:fit-content;
+    height:fit-content;
 }
 
 #headeraside:before{
@@ -165,6 +184,11 @@ footer{
     background-color:#e6bd43;
     transform:scaleX(100%);
     transition:transform 2s ease ;
+    }
+
+    #email{
+        width:170px;
+        height:42px;
     }
 
 @media only screen and (min-width:701px) and (max-width:900px) {
