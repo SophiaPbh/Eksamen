@@ -4,7 +4,7 @@
 
 body{
     font-family: 'Bree Serif', serif;
-    font-size:18px;
+    font-size:19px;
     margin:0 auto;
     background-color:#fff;
 }
@@ -47,7 +47,6 @@ main section article{
     min-width:100px;
     width:100%;
     margin:0 auto;
-    padding:0 auto;
 }
 
 main img{
@@ -55,17 +54,20 @@ main img{
     width:fit-content;
 }
 
-h6{
-    justify-content:center;
-    padding:90px;
+.section{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:stretch;
+    background-color:#fff;
+    justify-content: center;
+    font-size:36px;
+    width:50%;
 }
 
-p{
-    margin:10px;
-}
-
-h5{
-    margin:10px;
+.section img{
+    width:40px;
+    height:40px;
+    background-color:#fff;
 }
 
 .read-more-about-us2:hover{
@@ -74,6 +76,16 @@ h5{
 }
 
 .read-more-about-us2{
+    display:inline-block;
+    text-decoration:none;
+    font-weight:bold;
+    color:#000;
+    background-color:#e6bd43;
+    padding:8px;
+    margin:0 auto;
+}
+
+.read-more-about-us3{
     display:inline-block;
     text-decoration:none;
     font-weight:bold;
