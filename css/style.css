@@ -5,7 +5,7 @@
 body{
     font-family: 'Bree Serif', serif;
     margin:0 auto;
-    font-size:19px;
+    font-size:16px;
     background-color:#fff;
 }
 
@@ -35,6 +35,8 @@ header nav a{
 header img{
     justify-content:left;
     text-align:left;
+    width:100px;
+    height:100px;
 }
 
 main {
@@ -234,21 +236,37 @@ footer{
 }
 
 #blackbox2{
-    display:block;
+    display:flex;
     background-color:#252525;
     color:#fff;
     padding:0 auto;
     margin:0 auto;
     max-width:1260px;
-    height:fit-content;
+    height:146px;
     text-align:center;
+    justify-content:center;
 }
 
 .footerikons{
-    display:flex;
+    display:block;
+    flex-wrap:wrap;
+    align-items:stretch;
+    flex-flow:row;
     width:30px;
     height:30px;
+    margin:10px;
+    padding:0 auto;
+    justify-content:right;
     background-color:#fff;
+}
+
+.footerikons2{
+    display:flex;
+    width:100px;
+    height:100px;
+    background-color:#252525;
+    margin:0 auto;
+    padding:0 auto;
 }
 
 #headeraside:before{
