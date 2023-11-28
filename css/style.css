@@ -87,39 +87,21 @@ main section article{
     color:#e6bd43;
 }
 
-#portfolio3{
+.portfolio3{
     display:flex;
     flex-wrap:wrap;
     align-items:stretch;
     background-color:#fff;
 }
 
-#portfolio9{
+.portfolio9{
     display:flex;
     flex-wrap:wrap;
     align-items:stretch;
     background-color:#fff;
 }
 
-#portfolio11{
-    color:#000;
-    text-decoration:underline;
-    text-decoration-color: #e6bd43;
-}
-
-#portfolio13{
-    color:#000;
-    text-decoration:underline;
-    text-decoration-color: #e6bd43;
-}
-
-#portfolio12{
-    color:#000;
-    text-decoration:underline;
-    text-decoration-color: #e6bd43;
-}
-
-#portfolio10{
+.portfolio10{
     display:flex;
     flex-wrap:wrap;
     align-items:stretch;
@@ -224,57 +206,27 @@ footer{
 
 .footerikons{
     display:flex;
-    width:100px;
-    height:100px;
-    background-color:#252525;
-}
-
-.footerikons2{
-    display:block;
-    justify-content:right;
-    align-items:stretch;
     width:30px;
     height:30px;
     background-color:#fff;
-    margin:50px;
-    padding:0 auto;
 }
 
-.footerikons3{
-    display:block;
-    justify-content:right;
-    align-items:stretch;
-    width:30px;
-    height:30px;
-    background-color:#fff;
-    margin:50px;
-    padding:0 auto;
-}
-
-.footerikons4{
-    display:block;
-    justify-content:right;
-    align-items:stretch;
-    width:30px;
-    height:30px;
-    background-color:#fff;
-    margin:50px;
-    padding:0 auto;
-}
-
-.blackbox{
+footer img{
     display:flex;
     background-color:#252525;
+    justify-content:right;
     margin:0 auto;
-    text-align:center;
-    color:#fff;
-    min-width:840px;
-    max-height:146px;
-    width:fit-content;
 }
 
-.logo{
-    justify-content:left;
+#blackbox2{
+    display:block;
+    background-color:#252525;
+    color:#fff;
+    padding:0 auto;
+    margin:0 auto;
+    max-width:1260px;
+    height:fit-content;
+    text-align:center;
 }
 
 #headeraside:before{
@@ -298,6 +250,24 @@ footer{
     right:0;
     background-color:#e6bd43;
     }
+
+        #portfolio11:before{
+            content: " ";
+            position:absolute;
+            display:block;
+            width:100%;
+            height:5px;
+            background-color:#e6bd43;
+        }
+        
+        #portfolio11:hover::before{
+            content: " ";
+            position:absolute;
+            display:block;
+            width:100%;
+            height:5px;
+            background-color:#e6bd43;
+            }
     
     #email{
         width:170px;
