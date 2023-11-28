@@ -5,7 +5,7 @@
 body{
     font-family: 'Bree Serif', serif;
     margin:0 auto;
-    font-size:16px;
+    font-size:15px;
     background-color:#fff;
 }
 
@@ -42,6 +42,7 @@ main {
     grid-area:main;
     justify-content:center;
     text-align:center;
+    width:100%;
 }
 
 main section article{
@@ -49,6 +50,10 @@ main section article{
     min-width:100px;
     width:100%;
     margin:0 auto;
+}
+
+#services article p{
+    width:25px;
 }
 
 .read-more-about-us2:hover{
@@ -143,8 +148,13 @@ main section article{
 
 #services img{
     justify-content:center;
-    width:100px;
-    height:100px;
+    width:40px;
+    height:40px;
+}
+
+#services article{
+    width:fit-content;
+    padding:100px;
 }
 
 .portfolio5{
@@ -220,11 +230,35 @@ footer{
 }
 
 .footerikons2{
-    display:flex;
+    display:block;
+    justify-content:right;
+    align-items:stretch;
     width:30px;
     height:30px;
     background-color:#fff;
-    margin:20px;
+    margin:50px;
+    padding:0 auto;
+}
+
+.footerikons3{
+    display:block;
+    justify-content:right;
+    align-items:stretch;
+    width:30px;
+    height:30px;
+    background-color:#fff;
+    margin:50px;
+    padding:0 auto;
+}
+
+.footerikons4{
+    display:block;
+    justify-content:right;
+    align-items:stretch;
+    width:30px;
+    height:30px;
+    background-color:#fff;
+    margin:50px;
     padding:0 auto;
 }
 
@@ -234,8 +268,8 @@ footer{
     margin:0 auto;
     text-align:center;
     color:#fff;
-    min-width:1260px;
-    max-height:250px;
+    min-width:840px;
+    max-height:146px;
     width:fit-content;
 }
 
