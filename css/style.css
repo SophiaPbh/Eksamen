@@ -82,7 +82,39 @@ main section article{
     color:#e6bd43;
 }
 
-.portfolio3{
+#portfolio3{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:stretch;
+    background-color:#fff;
+}
+
+#portfolio9{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:stretch;
+    background-color:#fff;
+}
+
+#portfolio11{
+    color:#000;
+    text-decoration:underline;
+    text-decoration-color: #e6bd43;
+}
+
+#portfolio13{
+    color:#000;
+    text-decoration:underline;
+    text-decoration-color: #e6bd43;
+}
+
+#portfolio12{
+    color:#000;
+    text-decoration:underline;
+    text-decoration-color: #e6bd43;
+}
+
+#portfolio10{
     display:flex;
     flex-wrap:wrap;
     align-items:stretch;
@@ -99,6 +131,27 @@ main section article{
 .portfolio4 img{
     width:175px;
     height:175px;
+}
+
+#services{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:stretch;
+    margin:0 auto;
+    padding:0 auto;
+}
+
+#services img{
+    justify-content:center;
+    width:100px;
+    height:100px;
+}
+
+.portfolio5{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:stretch;
+    background-color:#fff;
 }
 
 .portfolio6{
@@ -128,7 +181,7 @@ main section article{
     text-align:center;
 }
 
-.grey{
+#grey{
     display:block;
     background-color:lightgrey;
     padding:85px;
@@ -159,27 +212,31 @@ footer{
     grid-area:footer;
 }
 
-footer img{
-    display:inline-block;
-    width:65px;
-    height:65px;
-    background-color:#fff;
-    margin:50px;
+.footerikons{
+    display:flex;
+    width:100px;
+    height:100px;
+    background-color:#252525;
 }
 
-#footerikons{
-    display:block;
-    justify-content:left;
-    align-items:stretch;
+.footerikons2{
+    display:flex;
+    width:30px;
+    height:30px;
+    background-color:#fff;
+    margin:20px;
+    padding:0 auto;
 }
 
 .blackbox{
-    display:block;
+    display:flex;
     background-color:#252525;
     margin:0 auto;
     text-align:center;
-    max-width:1260px;
-    height:146px;
+    color:#fff;
+    min-width:1260px;
+    max-height:250px;
+    width:fit-content;
 }
 
 .logo{
@@ -211,20 +268,6 @@ footer img{
     #email{
         width:170px;
         height:42px;
-    }
-
-    .services{
-        display:flex;
-        flex-wrap:wrap;
-        align-items:stretch;
-        margin:0 auto;
-        padding:0 auto;
-    }
-
-    .services img{
-        justify-content:center;
-        width:100px;
-        height:100px;
     }
 
     .content{
